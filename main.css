@@ -1,0 +1,140 @@
+
+:root {
+
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-purple-50: #1f0163;
+    --color-purple-100: #2a1a4e;
+    --color-purple-200: #0c0029;
+
+    --color-purplel-50: #3c00c7;
+    --color-purplel-100: #4a2f8a;
+    --color-purplel-200: #20006b;
+    
+    --color-purplep-50:#ec7b11;    
+    --color-purplep-200:#fa682e;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+    --color-gradient-bt: linear-gradient(90deg, var(--color-purplel-50), var(--color-purplel-100), var(--color-purplel-200));
+    --color-gradient-pl:linear-gradient(90deg, var(--color-purplep-50), var(--color-purplep-200));
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+body{
+    background: var(--color-gradient);
+    
+}
+
+.navbar h1{
+    font-size: 40px;
+}
+
+.navbar{
+    background-color: #2525251e;    
+    backdrop-filter: blur(20px);
+}
+
+.navbar-toggler{
+    
+    background-color: #fff;
+}
+
+.navbar h1, #cabecalho .nav .nav-link{
+    color: #000;
+}
+
+#cabecalho .nav .nav-link:hover, .nav .nav-link:hover{
+    color: #1f0163
+}
+
+#cabecalho .nav-link.active, .nav .nav-link.active{
+    background-color: rgb(37, 37, 37);
+    color: #ffffff;
+}
+
+#sobre{
+    background: var(--color-gradient-pl);
+}
+
+#planos > .container{
+    background-color: transparent;
+}
+
+#planos .row{
+    justify-content: space-around;    
+}
+
+#planos .col-md-3{
+    color: #fff;
+    padding: 10px;
+    background: var(--color-gradient-pl);
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.366);
+}
+
+#planos .col-md-3:hover{
+    transform: scale(1.1);
+}
+
+#planos h2{
+    background-color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 15px;   
+}
+
+#planos h3{
+    color: #fff;
+}
+
+h2, h3{
+    font-weight: bold;
+}
+
+#programacao img{
+    border-radius: 5px;
+}
+
+.text-colored{
+    color: #3700b8;
+}
+
+.carousel-item{
+
+    max-height: 800px;
+}
+
+.social-link li{
+    list-style: none;
+    display: inline;
+}
+
+.social-link li a{
+    text-decoration: none;
+}
+
+.btn{
+    color: #fff;
+    background: var(--color-gradient-bt);
+    width: 100%;
+}
+
+.btn:hover{
+    color: #8e7ca0;
+    background: var(--color-gradient);
+    transform: scale(1.02);
+}
+

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRJ TV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">            
+                <div>
+                    <h1 class="navbar-brand m-0 section-title fw-bold">MRJ TV</h1>                    
+                </div>            
+            <button class="navbar-toggler mb-3" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-fill me-1"></i>
+                            sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#planos" class="nav-link">
+                            <i class="fa-solid fa-money-check me-1"></i>
+                            planos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#programacao" class="nav-link">
+                            <i class="fa-solid fa-clapperboard me-1"></i>
+                            programação
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> 
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="Simplesmente acontece" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario o filme">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://pinguimpictures.files.wordpress.com/2019/07/img_3996-1.jpg" class="d-block w-100 rounded-4" alt="imagem da emissora">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o <span class="text-colored">canal</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime voluptate unde rem rerum cupiditate aut, corporis labore neque, a, laboriosam tenetur enim repellendus nostrum culpa quas exercitationem dicta. Corrupti!
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime voluptate unde rem rerum cupiditate aut, corporis labore neque, a, laboriosam tenetur enim repellendus nostrum culpa quas exercitationem dicta. Corrupti!
+                            </p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="planos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">todos os <span class="text-colored">planos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img src="https://infonet.com.br/wp-infonet/img/Cultura/grande-Cinema_060215.JPG" alt="imagem de aniversário" class="d-block w-100 rounded-4 mb-2">                        
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-badge-hd-fill"></i>
+                            Basic
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis voluptas odio maiores facere aut maxime pariatur omnis, inventore praesentium soluta nostrum, mollitia nihil tenetur dolorem iusto est, accusamus id!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://muralzinhodeideias.com.br/wp-content/uploads/2023/02/cinema-divulgacao.jpeg" alt="imagem de aniversário" class="d-block w-100 rounded-4 mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-badge-4k-fill"></i>
+                            Gold
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis voluptas odio maiores facere aut maxime pariatur omnis, inventore praesentium soluta nostrum, mollitia nihil tenetur dolorem iusto est, accusamus id!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://portalcorreio.com.br/portalcorreio/arquivos/2022/10/ae58e089cd1202a5ce28fd13dd97c078-1.jpg" alt="imagem de aniversário" class="d-block w-100 rounded-4 mb-2">
+                        <h3 class="section-title text-colored">
+                            <i class="bi bi-badge-8k-fill"></i>
+                            Platinum
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis voluptas odio maiores facere aut maxime pariatur omnis, inventore praesentium soluta nostrum, mollitia nihil tenetur dolorem iusto est, accusamus id!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="programacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">categorias</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">                        
+                        <nav class="nav nav-pills flex-column nav-cardapio pb-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#geral" class="fw-bold text-start nav-link text-colored active">Geral</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#romance" class="fw-bold text-start nav-link text-colored">Romance</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aventura" class="fw-bold text-start nav-link text-colored">Aventura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#anime" class="fw-bold text-start nav-link text-colored">Anime</button>                            
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="geral">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mário</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mário</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="Suco de laranja" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mário</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="coca-cola" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mário</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                                                       
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="romance">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images8.alphacoders.com/806/thumb-1920-806718.jpg" alt="simplesmente acontece" />
+                                        <h5 class="text-colored fw-bold mt-2">Simplesmente acontece</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aventura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://matheusaraujo.me/wp-content/uploads/2023/04/Super-Mario-Bros-O-Filme-1.jpg" alt="Mario" />
+                                        <h5 class="text-colored fw-bold mt-2">Super Mario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="anime">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images7.alphacoders.com/971/thumb-1920-971961.jpg" alt="Castlevania" />
+                                        <h5 class="text-colored fw-bold mt-2">Castlevania</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">Conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Digite seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Digite seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control h-50" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>                                    
+                                    </a>                                   
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>                                    
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste exemplo n°123, Bairro Bootstrap
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>     
+</body>
+</html>
